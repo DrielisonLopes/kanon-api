@@ -5,6 +5,6 @@ module.exports = (app) => {
         res.send('Welcome to KANON GAMING!');
     });
 
-    app.get('/machine', machineController.machineRoute);
+    app.get('/machine/:coins', machineController.machineRoute);
 };
   
