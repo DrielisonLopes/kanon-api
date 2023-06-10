@@ -16,19 +16,19 @@ exports.machineRoute = (req, res) => {
     // Check for winning combinations
     let winnings = 0;
     
-    if (result1 === "cherry" && result2 === "cherry" && result3 === "cherry") {
+    if (result1 === "🍒" && result2 === "🍒" && result3 === "🍒") {
       winnings = 50;
-    } else if (result1 === "cherry" && result2 === "cherry") {
+    } else if (result1 === "🍒" && result2 === "🍒") {
       winnings = 40;
-    } else if (result1 === "apple" && result2 === "apple" && result3 === "apple") {
+    } else if (result1 === "🍎" && result2 === "🍎" && result3 === "🍎") {
       winnings = 20;
-    } else if (result1 === "apple" && result2 === "apple") {
+    } else if (result1 === "🍎" && result2 === "🍎") {
       winnings = 10;
-    } else if (result1 === "banana" && result2 === "banana" && result3 === "banana") {
+    } else if (result1 === "🍌" && result2 === "🍌" && result3 === "🍌") {
       winnings = 15;
-    } else if (result1 === "banana" && result2 === "banana") {
+    } else if (result1 === "🍌" && result2 === "🍌") {
       winnings = 5;
-    } else if (result1 === "lemon" && result2 === "lemon" && result3 === "lemon") {
+    } else if (result1 === "🍋" && result2 === "🍋" && result3 === "🍋") {
       winnings = 3;
     }
     
